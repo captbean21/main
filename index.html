@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SilverBean (SBN) - Tokenomics & Staking Guide</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace;
+      margin: 0;
+      padding: 10px;
+      background-color: #C0C0C0;
+      color: #000;
+    }
+    header {
+      text-align: center;
+      padding: 10px;
+      background-color: #000080;
+      color: white;
+      border: 2px outset #FFF;
+      margin-bottom: 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      text-shadow: 2px 2px #FF00FF;
+    }
+    marquee {
+      background-color: #00A0A0;
+      color: white;
+      padding: 5px;
+      font-weight: bold;
+    }
+    section {
+      max-width: 800px;
+      margin: 10px auto;
+      padding: 15px;
+      background-color: #FFF;
+      border: 2px inset #C0C0C0;
+      box-shadow: 3px 3px #000;
+    }
+    h2 {
+      color: #00A0A0;
+      font-size: 20px;
+      border-bottom: 2px dotted #FF00FF;
+      padding-bottom: 5px;
+      margin-top: 0;
+    }
+    p, li {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+    ol {
+      padding-left: 20px;
+    }
+    a {
+      color: #0000FF;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+    a:hover {
+      color: #FF0000;
+      background-color: #FFFF00;
+    }
+    .highlight {
+      color: #FF00FF;
+      font-weight: bold;
+      animation: blink 1s step-end infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+    hr {
+      border: 0;
+      height: 2px;
+      background-image: linear-gradient(to right, #00FF00, #FF00FF, #00FF00);
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SilverBean (SBN) - Tokenomics & Staking Guide</h1>
+  </header>
+  <marquee>⚓ Sail the high seas with SilverBean, hunting crypto treasure with every stake! ⚓</marquee>
+
+  <section id="tokenomics">
+    <h2>Tokenomics Overview</h2>
+    <p>SilverBean (SBN) is an <span class="highlight">ERC-20 token</span> on Polygon designed for tipping and social engagement via TipBot. Here’s the breakdown:</p>
+    <ul>
+      <li><strong>Total Supply:</strong> 100 million SBN</li>
+      <li><strong>Initial Price:</strong> $0.00000707</li>
+      <li><strong>Circulating Supply (Early):</strong> ~26.5 million SBN</li>
+      <li><strong>Allocations:</strong>
+        <ul>
+          <li>Liquidity Pool (LP): 15% (15 million SBN + 1 billion Wrkz)</li>
+          <li>TipBot CEXswap: 1.5% (1.5 million SBN + 100 million Wrkz)</li>
+          <li>DODO LP Mining Rewards: 50% (50 million SBN, 27,379 SBN/day, <span class="highlight">~120-150% APY</span>)</li>
+          <li>DODO Single Staking Farm: 10% (10 million SBN, 5,476 SBN/day, <span class="highlight">~60% APY</span>)</li>
+          <li>Airdrops/Community: 10% (10 million SBN)</li>
+          <li>Team/Dev: 10% (10 million SBN, vested 2 years)</li>
+          <li>Reserve: 8.5% (8.5 million SBN)</li>
+        </ul>
+      </li>
+      <li><strong>Emissions:</strong> 30,118 SBN/day (LP Mining: 27,379, Single Staking: 5,476)</li>
+      <li><strong>Drainage:</strong> ~61.14 million Wrkz/month, 50% LP Wrkz in ~8.2 months</li>
+    </ul>
+    <p>Learn more about Wrkz mining and SBN utility on <a href="https://tipbot.com" target="_blank">TipBot</a>.</p>
+  </section>
+
+  <hr>
+
+  <section id="lp-mining">
+    <h2>How to Stake in DODO LP Mining Pool</h2>
+    <p>Earn up to <span class="highlight">~120-150% APY</span> by providing liquidity to the SBN/Wrkz LP and staking DLP tokens on DODO.</p>
+    <ol>
+      <li><strong>Acquire SBN and Wrkz:</strong> Buy SBN on TipBot CEXswap or QuickSwap, and mine Wrkz (14.4 million/day emissions) via FastPool.</li>
+      <li><strong>Add Liquidity on DODO:</strong> Visit <a href="https://app.dodoex.io" target="_blank">DODO</a>, connect your wallet (e.g., MetaMask), and add SBN + Wrkz to the SBN/Wrkz LP (15 million SBN + 1 billion Wrkz). Receive DLP tokens.</li>
+      <li><strong>Stake DLP Tokens:</strong> Go to the DODO farming page, select the SBN/Wrkz LP mining pool, and stake your DLP tokens.</li>
+      <li><strong>Claim Rewards:</strong> Earn 27,379 SBN/day proportional to your LP share (e.g., 1 million SBN = ~1,826 SBN/day). Claim rewards instantly and optionally stake them for more yield.</li>
+      <li><strong>Monitor:</strong> Check your APY and adjust liquidity as needed. Watch for impermanent loss mitigated by DODO’s PMM.</li>
+    </ol>
+  </section>
+
+  <hr>
+
+  <section id="single-staking">
+    <h2>How to Stake in DODO Single Staking Pool</h2>
+    <p>Earn <span class="highlight">~60% APY</span> by staking SBN in the DODO single staking farm.</p>
+    <ol>
+      <li><strong>Acquire SBN:</strong> Purchase SBN from TipBot CEXswap, QuickSwap, or earn via LP mining.</li>
+      <li><strong>Stake on DODO:</strong> Visit <a href="https://app.dodoex.io" target="_blank">DODO</a>, connect your wallet, and navigate to the single staking farm. Stake your SBN (e.g., 1 million SBN = ~1,096 SBN/day).</li>
+      <li><strong>Claim Rewards:</strong> Earn 5,476 SBN/day proportional to your stake. Claim rewards instantly.</li>
+      <li><strong>Hold or Use:</strong> Use rewards for tipping on TipBot or hold for future value.</li>
+      <li><strong>Monitor:</strong> Track your APY and adjust stake as needed.</li>
+    </ol>
+  </section>
+</body>
+</html>
